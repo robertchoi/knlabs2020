@@ -2,7 +2,7 @@ baseURL = "http://www.knlabs.kr/"
 languageCode = "kr-ko"
 title = "KNLabs Site"
 theme = "hello"
-disqusShortname = "@disqus_QF0JbZAU2k"
+disqusShortname = "robertchoi-disqus-com"
 paginate = 6
 
 [author]
