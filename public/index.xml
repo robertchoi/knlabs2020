@@ -5,7 +5,9 @@
     <link>http://www.knlabs.kr/</link>
     <description>Recent content on KNLabs Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>kr-ko</language>
+    <managingEditor>robert@knlabs.kr (robert choi)</managingEditor>
+    <webMaster>robert@knlabs.kr (robert choi)</webMaster>
     <lastBuildDate>Wed, 29 Jan 2020 02:51:14 +0900</lastBuildDate>
     
 	<atom:link href="http://www.knlabs.kr/index.xml" rel="self" type="application/rss+xml" />
@@ -15,7 +17,7 @@
       <title>KNLabs를 꿈꾸며...</title>
       <link>http://www.knlabs.kr/posts/my-first-post/</link>
       <pubDate>Wed, 29 Jan 2020 02:51:14 +0900</pubDate>
-      
+      <author>robert@knlabs.kr (robert choi)</author>
       <guid>http://www.knlabs.kr/posts/my-first-post/</guid>
       <description>케이엔랩스(KNLabs)  설립년도 : 1992년 주소 : 경기도 성남시 분당구 판교로289번길 20, 1동 7층  </description>
     </item>
