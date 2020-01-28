@@ -1,4 +1,16 @@
 baseURL = "http://www.knlabs.kr/"
-languageCode = "en-us"
+languageCode = "kr-ko"
 title = "KNLabs Site"
 theme = "hello"
+disqusShortname = "@disqus_QF0JbZAU2k"
+paginate = 6
+
+[author]
+    name = "robert choi"
+    email = "robert@knlabs.kr"
+
+[params]
+    description = "KNLabs 오픈연구소 홈페이지입니다."
+
+
+
