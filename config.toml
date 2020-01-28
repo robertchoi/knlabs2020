@@ -1,0 +1,4 @@
+baseURL = "http://www.knlabs.kr/"
+languageCode = "en-us"
+title = "KNLabs Site"
+theme = "hello"
