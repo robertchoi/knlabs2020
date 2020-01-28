@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on KNLabs Site</title>
+    <link>http://www.knlabs.kr/categories/</link>
+    <description>Recent content in Categories on KNLabs Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Jan 2020 02:51:14 +0900</lastBuildDate>
+    
+	<atom:link href="http://www.knlabs.kr/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>base16</title>
+      <link>http://www.knlabs.kr/categories/base16/</link>
+      <pubDate>Wed, 29 Jan 2020 02:51:14 +0900</pubDate>
+      
+      <guid>http://www.knlabs.kr/categories/base16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>회사</title>
+      <link>http://www.knlabs.kr/categories/%ED%9A%8C%EC%82%AC/</link>
+      <pubDate>Wed, 29 Jan 2020 02:51:14 +0900</pubDate>
+      
+      <guid>http://www.knlabs.kr/categories/%ED%9A%8C%EC%82%AC/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
