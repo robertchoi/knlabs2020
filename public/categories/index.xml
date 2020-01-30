@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on KNLabs Site</title>
-    <link>https://www.knlabs.com/categories/</link>
+    <link>https://pedantic-meninsky-a943cd.netlify.com/categories/</link>
     <description>Recent content in Categories on KNLabs Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr-ko</language>
@@ -10,15 +10,15 @@
     <webMaster>robert@knlabs.kr (robert choi)</webMaster>
     <lastBuildDate>Wed, 29 Jan 2020 02:51:14 +0900</lastBuildDate>
     
-	<atom:link href="https://www.knlabs.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pedantic-meninsky-a943cd.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>회사</title>
-      <link>https://www.knlabs.com/categories/%ED%9A%8C%EC%82%AC/</link>
+      <link>https://pedantic-meninsky-a943cd.netlify.com/categories/%ED%9A%8C%EC%82%AC/</link>
       <pubDate>Wed, 29 Jan 2020 02:51:14 +0900</pubDate>
       <author>robert@knlabs.kr (robert choi)</author>
-      <guid>https://www.knlabs.com/categories/%ED%9A%8C%EC%82%AC/</guid>
+      <guid>https://pedantic-meninsky-a943cd.netlify.com/categories/%ED%9A%8C%EC%82%AC/</guid>
       <description></description>
     </item>
     
