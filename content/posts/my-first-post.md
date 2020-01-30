@@ -9,7 +9,7 @@ categories: ["회사"]
 
 
 
-![회사로고](../../static/images/logo.png)
+![회사로고](/images/logo.png)
 
 - 설립년도 : 1992년
 - 주소 : 경기도 성남시 분당구 판교로289번길 20, 1동 7층
