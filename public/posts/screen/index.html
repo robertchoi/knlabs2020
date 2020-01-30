@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>리눅스에서 screen 명령어의 사용  | KNLabs</title>
+  <meta name="description" content="KNLabs 오픈연구소 홈페이지입니다. '리눅스에서 screen 명령어의 사용'을 한 번 살펴보세요.">
+  <meta property="og:title" content="리눅스에서 screen 명령어의 사용">
+  
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2020-01-30">
+  
+  <meta property="og:description" content="KNLabs 오픈연구소 홈페이지입니다. '리눅스에서 screen 명령어의 사용'을 한 번 살펴보세요.">
+  <meta property="og:url" content="https://pedantic-meninsky-a943cd.netlify.com/posts/screen/">
+  <meta property="og:site_name" content="KNLabs">
+  
+  <meta property="og:image" content="https://pedantic-meninsky-a943cd.netlify.com/images/thumbnail.png">
+  
+  
+  <meta property="og:tags" content="Linux">
+  
+  <meta property="og:tags" content="Command">
+  
+  <meta property="og:tags" content="리눅스">
+  
+  <meta property="og:tags" content="명령어">
+  
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="canonical" href="https://pedantic-meninsky-a943cd.netlify.com/posts/screen/">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/agate.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+  
+  
+  <script type="text/javascript">
+  function toggle_visibility(id) {
+    var e = document.getElementById(id);
+    if (e.className === 'menu')
+      e.className = 'menu hidden';
+    else
+      e.className = 'menu';
+  }
+  </script>
+</head>
+<body>
+  <div class="navbar">    
+    <div class="logo">
+      <a href="/">
+        <img src="/images/logo.png" height="34px" />
+      </a>
+    </div>
+    <div class="burger">
+      <button onclick="toggle_visibility('menu')">
+        <i class="fa fa-bars" aria-hidden="true"></i> 메뉴
+      </button>
+    </div>
+    <div id="menu" class="menu hidden">
+      <ul>
+        <li><a href="/">#KNLabs</a></li>
+        <li><a href="/categories">#카테고리</a></li>
+        <li><a href="/tags">#태그</a></li>
+        <li><a href="/projects">#프로젝트</a></li>        
+      </ul>
+      <input class="search" id="search-input" type="search" placeholder="검색어" value="">
+    </div>
+  </div>
+  <div class="container">    
+
+<div class="post">
+  <div class="post-title">
+    <a href="https://pedantic-meninsky-a943cd.netlify.com/posts/screen/">
+      <img src="/images/post-title-icon.png" />
+      <div class="post-meta">
+        <time>2020년 01월 30일 22시 33분</time>
+        <h1>리눅스에서 screen 명령어의 사용</h1>
+      </div>
+    </a>
+  </div>
+  <div class="post-toc">
+    <span class="title">차례</span>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#screen이란">Screen이란?</a></li>
+    <li><a href="#설치">설치</a></li>
+    <li><a href="#사용법">사용법</a>
+      <ul>
+        <li><a href="#추가-환경-설정">추가 환경 설정</a></li>
+        <li><a href="#screen-진입과-탈출">screen 진입과 탈출</a></li>
+        <li><a href="#screen-명령어">screen 명령어</a></li>
+      </ul>
+    </li>
+    <li><a href="#참조문헌">참조문헌</a></li>
+  </ul>
+</nav>
+  </div>
+  <section class="post-content">
+    <h2 id="screen이란">Screen이란?</h2>
+<p>Screen이란 Linux에서 물리적인 터미널을 여러 개의 가상 터미널로 다중화해주는 도구입니다. 각 가상 터미널은 독립적으로 동작하며 사용자 세션이 분리되어도 동작합니다. 간단히 말하면 이 도구는 백그라운드로 동작하는 다중 터미널을 만들어 줍니다. 이걸 이용해서 백그라운드 작업을 간단히 수행할 수도 있고 회사에서 작업하던 터미널 화면을 집에 가서도 같은 터미널 화면을 보며 작업을 이어 할 수도 있습니다.</p>
+<h2 id="설치">설치</h2>
+<ul>
+<li>RedHat계열 (RedHat, CentOS, Fedora 등&hellip;)</li>
+</ul>
+<pre><code>yum install screen
+</code></pre><ul>
+<li>Debian 계열(Ubuntu 등..) #</li>
+</ul>
+<pre><code>apt-get install screen
+</code></pre><h2 id="사용법">사용법</h2>
+<h3 id="추가-환경-설정">추가 환경 설정</h3>
+<p>아래와 같이 설정 파일을 추가해주면 Screen 사용 시 좀 더 편해집니다. 적용하시는 것을 추천합니다. 각 가상 터미널의 창 구분도 되고 시계도 표시되는 등 더 보기 편해집니다.</p>
+<pre><code>vim ~/.screenrc
+</code></pre><pre><code>defscrollback 5000
+termcapinfo xterm* ti@:te@
+startup_message off
+hardstatus on
+hardstatus alwayslastline
+hardstatus string &quot;%{.bW}%-w%{.rW}%n*%t%{-}%+w %= %c ${USER}@%H&quot;
+bindkey -k k1 select 0
+bindkey -k k2 select 1
+bindkey -k k3 select 2
+</code></pre><h3 id="screen-진입과-탈출">screen 진입과 탈출</h3>
+<ul>
+<li>
+<p>screen 진입</p>
+<ul>
+<li>screen : 일반적인 진입</li>
+<li>screen -S [세션이름] : screen세션 이름을 지정하여 실행</li>
+<li>screen -r [세션이름] : 실행중인(Detached) screen 세션으로 재 진입시 실행하는 명령어, screen세션이 하나만 실행중일 경우 세션이름을 입력하지 않아도 진입이 된다.</li>
+<li>screen -x [세션이름] : 실행중인(Attached) screen 세션으로 재 진입시 실행하는 명령어, screen세션이 하나만 실행중일 경우 세션이름을 입력하지 않아도 진입이 된다.</li>
+</ul>
+</li>
+<li>
+<p>screen 탈출
+screen을 종료 시키기 위해서는 모든 터미널을 종료(exit)하면 된다. screen 세션을 유지한 상태에서 나오기를 원한다면 Ctrl + a, d를 입력하면 된다.</p>
+</li>
+</ul>
+<h3 id="screen-명령어">screen 명령어</h3>
+<p>Screen에서의 명령은 Ctrl + a 와 다른 키의 조합으로 이루어진다. 먼저 Ctrl + a를 누른 후 조합키를 누르면 된다. 동시에 누르는 것이 아니고 순차적으로 눌러야 한다.</p>
+<ul>
+<li>Ctrl+a, c : 새창 띄우기</li>
+<li>Ctrl+a, a : 바로 전 창으로</li>
+<li>Ctrl+a, n : 다음 창으로</li>
+<li>Ctrl+a, p: 이전 창으로</li>
+<li>Ctrl+a, 스페이스 : 다음 창으로</li>
+<li>Ctrl+a, 백스페이스 : 이전 창으로</li>
+<li>Ctrl+a, 0 : 0번째 창으로</li>
+<li>Ctrl+a, 1 : 1번째 창으로</li>
+<li>Ctrl+a, 9 : 10번째 창으로</li>
+<li>Ctrl+a, d : screen 탈출(screen은 계속 실행중이다.)</li>
+</ul>
+<h2 id="참조문헌">참조문헌</h2>
+<p><a href="https://dreamlog.tistory.com/470">Linux screen 사용법</a></p>
+
+  </section>
+  <div class="share">    
+    <a
+      href="//www.facebook.com/sharer.php?src=bm&u=https%3a%2f%2fpedantic-meninsky-a943cd.netlify.com%2fposts%2fscreen%2f&t=%eb%a6%ac%eb%88%85%ec%8a%a4%ec%97%90%ec%84%9c%20screen%20%eb%aa%85%eb%a0%b9%ec%96%b4%ec%9d%98%20%ec%82%ac%ec%9a%a9"
+      onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"
+      ><i class="fa fa-facebook"></i
+    ></a>
+    <a
+      href="//twitter.com/intent/tweet?url=https%3a%2f%2fpedantic-meninsky-a943cd.netlify.com%2fposts%2fscreen%2f&text=%eb%a6%ac%eb%88%85%ec%8a%a4%ec%97%90%ec%84%9c%20screen%20%eb%aa%85%eb%a0%b9%ec%96%b4%ec%9d%98%20%ec%82%ac%ec%9a%a9&tw_p=tweetbutton"
+      onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"
+      ><i class="fa fa-twitter"></i
+    ></a>
+    <a
+      href="//getpocket.com/edit?url=https%3a%2f%2fpedantic-meninsky-a943cd.netlify.com%2fposts%2fscreen%2f&title=%eb%a6%ac%eb%88%85%ec%8a%a4%ec%97%90%ec%84%9c%20screen%20%eb%aa%85%eb%a0%b9%ec%96%b4%ec%9d%98%20%ec%82%ac%ec%9a%a9"
+      onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"
+      ><i class="fa fa-get-pocket"></i
+    ></a>
+  </div>
+  <div class="post-meta-code">
+    <div class="desc">
+      친절한
+      
+      <a href="mailto:robert@knlabs.kr">robertㄴ</a>
+      
+      님이
+      <span class="highlight">2020년 01월 30일 22시 33분</span> 
+      에 작성한 글입니다.
+    </div>
+    <div class="desc">
+      
+      <div class="desc">
+        <span class="fixed-desc">_카테고리</span>
+        
+        
+        <a href="https://pedantic-meninsky-a943cd.netlify.com//categories/linux">#Linux</a>
+        
+      </div>
+      
+      <div class="desc">
+        <span class="fixed-desc">_태그</span>
+        
+        
+        <a href="https://pedantic-meninsky-a943cd.netlify.com/tags/linux">#Linux</a>
+        
+        <a href="https://pedantic-meninsky-a943cd.netlify.com/tags/command">#Command</a>
+        
+        <a href="https://pedantic-meninsky-a943cd.netlify.com/tags/%EB%A6%AC%EB%88%85%EC%8A%A4">#리눅스</a>
+        
+        <a href="https://pedantic-meninsky-a943cd.netlify.com/tags/%EB%AA%85%EB%A0%B9%EC%96%B4">#명령어</a>
+        
+        
+      </div>
+    </div>
+  </div>  
+  
+  <div class="post-comment">    
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "robertchoi-disqus-com" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>    
+  </div>
+  
+  <div class="recommend-articles">
+    다음으로 읽을만한 글입니다.
+    <ul>
+      
+      <li>
+        <a href="https://pedantic-meninsky-a943cd.netlify.com/posts/my-first-post/" rel="prev">
+          <span>KNLabs를 꿈꾸며...</span>
+        </a>
+      </li>
+      
+      
+    </ul>
+  </div>
+</div>
+
+<div class="go-top">
+  <a href="#" class="go-top-button">
+    <i class="fa fa-angle-double-up"></i>
+    <span>위로</span>
+  </a>
+</div>
+<footer class="footer">
+  COPYRIGHT (C) <a href="https://blog.lulab.net">DONGGEUN,BANG (LUBANG).</a><br />
+  ALL RIGHTS RESERVED.
+</footer>
+</body>
+</html>
+
