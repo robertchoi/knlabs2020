@@ -1,7 +1,7 @@
 baseURL = "https://pedantic-meninsky-a943cd.netlify.com/"
 languageCode = "kr-ko"
 DefaultContentLanguage = "kr"
-title = "KNLabs Site"
+title = "KNLabs"
 theme = "hello"
 disqusShortname = "robertchoi-disqus-com"
 paginate = 5

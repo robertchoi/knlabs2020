@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>KNLabs on KNLabs Site</title>
+    <title>KNLabs</title>
     <link>https://pedantic-meninsky-a943cd.netlify.com/tags/knlabs/</link>
-    <description>Recent content in KNLabs on KNLabs Site</description>
+    <description>Recent content on KNLabs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr-ko</language>
     <managingEditor>robert@knlabs.kr (robert choi)</managingEditor>
