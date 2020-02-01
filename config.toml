@@ -4,6 +4,7 @@ DefaultContentLanguage = "kr"
 title = "KNLabs"
 theme = "hello"
 disqusShortname = "robertchoi-disqus-com"
+googleAnalytics = "G-JZWQM6BYLT"
 paginate = 5
 
 [author]
