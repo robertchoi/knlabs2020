@@ -11,10 +11,7 @@ cover: "https://user-images.githubusercontent.com/152094/76448445-af806080-640d-
 
 ![image](https://user-images.githubusercontent.com/152094/76448445-af806080-640d-11ea-8e81-131ee182ffc1.png)
 
-
-- 설립년도 : 1992년
 - 주소 : 경기도 성남시 분당구 판교로289번길 20, 1동 7층
-
 
 # 커뮤니티
 ### 오로카판교 지역모임
