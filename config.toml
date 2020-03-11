@@ -1,4 +1,5 @@
-baseURL = "https://pedantic-meninsky-a943cd.netlify.com/"
+#baseURL = "https://pedantic-meninsky-a943cd.netlify.com/"
+baseURL = "https://www.knlabs.kr/"
 languageCode = "kr-ko"
 DefaultContentLanguage = "kr"
 title = "KNLabs"
