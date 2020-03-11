@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>자율 주행과 로봇 제어를 위한 OS 워크샵 - ROS 워크샵 입문  | KNLabs</title>
+  <meta name="description" content="KNLabs 오픈연구소 홈페이지입니다. '자율 주행과 로봇 제어를 위한 OS 워크샵 - ROS 워크샵 입문'을 한 번 살펴보세요.">
+  <meta property="og:title" content="자율 주행과 로봇 제어를 위한 OS 워크샵 - ROS 워크샵 입문">
+  
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2020-03-12">
+  
+  <meta property="og:description" content="KNLabs 오픈연구소 홈페이지입니다. '자율 주행과 로봇 제어를 위한 OS 워크샵 - ROS 워크샵 입문'을 한 번 살펴보세요.">
+  <meta property="og:url" content="https://www.knlabs.kr/posts/ws1/">
+  <meta property="og:site_name" content="KNLabs">
+  
+  <meta property="og:image" content="https://user-images.githubusercontent.com/152094/76451080-3a635a00-6412-11ea-8237-e2a9c5f723fe.png">
+  
+  
+  <meta property="og:tags" content="자율주행">
+  
+  <meta property="og:tags" content="로봇">
+  
+  <meta property="og:tags" content="ROS">
+  
+  <meta property="og:tags" content="워큿샵">
+  
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="canonical" href="https://www.knlabs.kr/posts/ws1/">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/agate.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+  <script type="text/javascript">
+  function toggle_visibility(id) {
+    var e = document.getElementById(id);
+    if (e.className === 'menu')
+      e.className = 'menu hidden';
+    else
+      e.className = 'menu';
+  }
+  </script>
+</head>
+<body>
+  <div class="navbar">    
+    <div class="logo">
+      <a href="/">
+        <img src="/images/logo.png" height="34px" />
+      </a>
+    </div>
+    <div class="burger">
+      <button onclick="toggle_visibility('menu')">
+        <i class="fa fa-bars" aria-hidden="true"></i> 메뉴
+      </button>
+    </div>
+    <div id="menu" class="menu hidden">
+      <ul>
+        <li><a href="/">#KNLabs</a></li>
+        <li><a href="/categories">#카테고리</a></li>
+        <li><a href="/tags">#태그</a></li>
+        <li><a href="/projects">#프로젝트</a></li>        
+      </ul>
+      <input class="search" id="search-input" type="search" placeholder="검색어" value="">
+    </div>
+  </div>
+  <div class="container">    
+
+<div class="post">
+  <div class="post-title">
+    <a href="https://www.knlabs.kr/posts/ws1/">
+      <img src="/images/post-title-icon.png" />
+      <div class="post-meta">
+        <time>2020년 03월 12일 03시 30분</time>
+        <h1>자율 주행과 로봇 제어를 위한 OS 워크샵 - ROS 워크샵 입문</h1>
+      </div>
+    </a>
+  </div>
+  <div class="post-toc">
+    <span class="title">차례</span>
+    <nav id="TableOfContents"></nav>
+  </div>
+  <section class="post-content">
+    <p><img src="https://user-images.githubusercontent.com/152094/76451080-3a635a00-6412-11ea-8237-e2a9c5f723fe.png" alt="ROS워크샵기초포스트"></p>
+<p>[커뮤니티 소개]
+오로카 판교지역모임은 자율주행과 로봇제어 관련 회사들이 많이 있는 판교지역에서 로봇운영체제인 ROS를 스터디하고 있습니다. ROS뿐 아니라, 아두이노, 라즈베리파이, 3D프린터를 기반으로한 메이킹 문화를 만들고자 합니다.</p>
+<p>[오로카카페]
+<a href="https://cafe.naver.com/openrt">https://cafe.naver.com/openrt</a></p>
+<p>[밋업]
+<a href="http://bit.ly/%EB%A9%94%EC%9D%B4%EC%BB%A4%EC%8A%A4%ED%8C%90%EA%B5%90">http://bit.ly/메이커스판교</a></p>
+<p>[ROS와 로봇 제작 판교모임 슬랙]
+<a href="http://bit.ly/%EC%98%A4%EB%A1%9C%EC%B9%B4%ED%8C%90%EA%B5%90%EC%8A%AC%EB%9E%99%EB%A7%81%ED%81%AC">http://bit.ly/오로카판교슬랙링크</a></p>
+<p>[단톡방]
+<a href="http://bit.ly/%EB%A1%9C%EB%B4%87%EB%AA%A8%EC%9E%84%EB%8B%A8%ED%86%A1%EB%B0%A9">http://bit.ly/로봇모임단톡방</a></p>
+<p>[장소 및 시간]
+경기도 성남시 분당구 판교로289번길 20, 1동 7층
+당일 오전 9시 30분 부터 입장가능하고 발표는 10시부터 5시까지 진행합니다.</p>
+<ul>
+<li>문의:010-2742-0631</li>
+</ul>
+<p><del>1차 : 2019년 7월 27일</del></p>
+<p><del>2차 : 2019년 8월 31일</del></p>
+<p><del>3차 : 2019년 9월 28일</del></p>
+<p><del>4차 : 2019년 10월 26일</del></p>
+<p><del>5차 : 2019년 11월 30일</del></p>
+<p><del>6차 : 2020년 1월 11일</del></p>
+<p>7차 : 연기</p>
+<p>[발표]</p>
+<ol>
+<li>ROS 개론</li>
+</ol>
+<ul>
+<li>ROS의 역사와 기본 개념, ROS2.0에 대한 내용을 다룹니다. 우리는 ROS1과 ROS2 어떤 것을 사용하는 것이 좋을까요?</li>
+</ul>
+<ol start="2">
+<li>ROS 운영체제 설치하기</li>
+</ol>
+<ul>
+<li>기본적인 학습을 위해서 우분투 18.04와 ROS 멜로딕 버전을 설치하고, 기본적인 터틀시뮬레이터 동작 방법을 다룹니다.</li>
+</ul>
+<ol start="3">
+<li>ROS의 구조</li>
+</ol>
+<ul>
+<li>ROS 프로그래밍을 위한 구조와 방법, 기본적인 문법과 형식에 대해서 다룹니다.</li>
+</ul>
+<ol start="4">
+<li>ROS 하드웨어 제어</li>
+</ol>
+<ul>
+<li>실제 하드웨어를 다루기위한 아두이노 오픈 하드웨어 플랫폼 활용법과 ROS시리얼을 통해서 Host PC와 통신하는 방법에 대해서 다룹니다.</li>
+</ul>
+<ol start="5">
+<li>ROS 도구 사용하기 / 슬램과 네비게이션</li>
+</ol>
+<ul>
+<li>ROS 프로그래밍에 필요한 다양한 도구와 URDF 하드웨어 추상화 방법에 대해서 다룹니다.</li>
+<li>가제보 시뮬레이터를 통해서 SLAM의 원리와 방법에 대해서 실습하고, 네비게이션을 시뮬레이션 해 봅니다.</li>
+</ul>
+<p>[참가등록 안내]</p>
+<ul>
+<li>참가비는 88,000원이며 행사 당일 점심, 아두이노, 간식 제공 및 남은 돈은 추후 모임에 사용됩니다.</li>
+<li>등록하시면, 카톡으로 참가비 입금 요청을 드립니다.</li>
+<li>입금 확인 후 Waitlist(미지불)에서 Going(지불완료)로 승인됩니다.</li>
+<li>간단한 참가자 정보를 넣어주세요.(예: 이름/이메일주소/전화번호) 참가비 확인 시 필요합니다.</li>
+</ul>
+<p>[준비사항]</p>
+<ul>
+<li>원활한 진행을 위해서 우분투 18.04버전을 듀얼부트로 설치해 오시기 바랍니다. 버추얼박스나, VMware에서는 가제보가 동작하지 않습니다.</li>
+</ul>
+<p>[주의사항]</p>
+<ul>
+<li>노쇼 방지를 위해 당일 불참하신 분께는 참가비를 반환해드리지 않습니다.</li>
+<li>환불 신청 시 하루 전 오후 7시까지 댓글로 환불 취소를 한 경우에만 환불 가능합니다.</li>
+</ul>
+
+  </section>
+  <div class="share">    
+    <a
+      href="//www.facebook.com/sharer.php?src=bm&u=https%3a%2f%2fwww.knlabs.kr%2fposts%2fws1%2f&t=%ec%9e%90%ec%9c%a8%20%ec%a3%bc%ed%96%89%ea%b3%bc%20%eb%a1%9c%eb%b4%87%20%ec%a0%9c%ec%96%b4%eb%a5%bc%20%ec%9c%84%ed%95%9c%20OS%20%ec%9b%8c%ed%81%ac%ec%83%b5%20-%20ROS%20%ec%9b%8c%ed%81%ac%ec%83%b5%20%ec%9e%85%eb%ac%b8"
+      onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"
+      ><i class="fa fa-facebook"></i
+    ></a>
+    <a
+      href="//twitter.com/intent/tweet?url=https%3a%2f%2fwww.knlabs.kr%2fposts%2fws1%2f&text=%ec%9e%90%ec%9c%a8%20%ec%a3%bc%ed%96%89%ea%b3%bc%20%eb%a1%9c%eb%b4%87%20%ec%a0%9c%ec%96%b4%eb%a5%bc%20%ec%9c%84%ed%95%9c%20OS%20%ec%9b%8c%ed%81%ac%ec%83%b5%20-%20ROS%20%ec%9b%8c%ed%81%ac%ec%83%b5%20%ec%9e%85%eb%ac%b8&tw_p=tweetbutton"
+      onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"
+      ><i class="fa fa-twitter"></i
+    ></a>
+    <a
+      href="//getpocket.com/edit?url=https%3a%2f%2fwww.knlabs.kr%2fposts%2fws1%2f&title=%ec%9e%90%ec%9c%a8%20%ec%a3%bc%ed%96%89%ea%b3%bc%20%eb%a1%9c%eb%b4%87%20%ec%a0%9c%ec%96%b4%eb%a5%bc%20%ec%9c%84%ed%95%9c%20OS%20%ec%9b%8c%ed%81%ac%ec%83%b5%20-%20ROS%20%ec%9b%8c%ed%81%ac%ec%83%b5%20%ec%9e%85%eb%ac%b8"
+      onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"
+      ><i class="fa fa-get-pocket"></i
+    ></a>
+  </div>
+  <div class="post-meta-code">
+    <div class="desc">
+      친절한
+      
+      <a href="mailto:robert@knlabs.kr">robert</a>
+      
+      님이
+      <span class="highlight">2020년 03월 12일 03시 30분</span> 
+      에 작성한 글입니다.
+    </div>
+    <div class="desc">
+      
+      <div class="desc">
+        <span class="fixed-desc">_카테고리</span>
+        
+        
+        <a href="https://www.knlabs.kr//categories/%EC%9B%8C%ED%81%AC%EC%83%B5">#워크샵</a>
+        
+      </div>
+      
+      <div class="desc">
+        <span class="fixed-desc">_태그</span>
+        
+        
+        <a href="https://www.knlabs.kr/tags/%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89">#자율주행</a>
+        
+        <a href="https://www.knlabs.kr/tags/%EB%A1%9C%EB%B4%87">#로봇</a>
+        
+        <a href="https://www.knlabs.kr/tags/ros">#ROS</a>
+        
+        <a href="https://www.knlabs.kr/tags/%EC%9B%8C%ED%81%BF%EC%83%B5">#워큿샵</a>
+        
+        
+      </div>
+    </div>
+  </div>  
+  
+  <div class="recommend-articles">
+    다음으로 읽을만한 글입니다.
+    <ul>
+      
+      <li>
+        <a href="https://www.knlabs.kr/posts/hugo/" rel="prev">
+          <span>Hugo를 사용해 보자!</span>
+        </a>
+      </li>
+      
+      
+    </ul>
+  </div>
+</div>
+
+<div class="go-top">
+  <a href="#" class="go-top-button">
+    <i class="fa fa-angle-double-up"></i>
+    <span>위로</span>
+  </a>
+</div>
+<footer class="footer">
+  COPYRIGHT (C) <a href="https://blog.lulab.net">DONGGEUN,BANG (LUBANG).</a><br />
+  ALL RIGHTS RESERVED.
+</footer>
+</body>
+</html>
+
