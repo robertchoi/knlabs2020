@@ -54,6 +54,7 @@ bindkey -k k3 select 2
 
 ### screen 명령어
 Screen에서의 명령은 Ctrl + a 와 다른 키의 조합으로 이루어진다. 먼저 Ctrl + a를 누른 후 조합키를 누르면 된다. 동시에 누르는 것이 아니고 순차적으로 눌러야 한다.
+
 - Ctrl+a, c : 새창 띄우기
   
 - Ctrl+a, a : 바로 전 창으로
