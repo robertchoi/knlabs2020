@@ -8,10 +8,19 @@
     <language>kr-ko</language>
     <managingEditor>robert@knlabs.kr (robert)</managingEditor>
     <webMaster>robert@knlabs.kr (robert)</webMaster>
-    <lastBuildDate>Sat, 08 Feb 2020 22:23:33 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2020 03:16:11 +0900</lastBuildDate>
     
 	<atom:link href="https://www.knlabs.kr/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo를 사용해 보자!</title>
+      <link>https://www.knlabs.kr/posts/hugo/</link>
+      <pubDate>Thu, 12 Mar 2020 03:16:11 +0900</pubDate>
+      <author>robert@knlabs.kr (robert)</author>
+      <guid>https://www.knlabs.kr/posts/hugo/</guid>
+      <description>자주 사용하는 명령어  새로운 포스트를 생성하고자 할 경우  hugo new posts/my-first-post.md  로컬서버에서 테스트 하고자 할 경우  hugo server -D  최종적으로 적용된 파일들을 만들고자 할 경우  hugo -D </description>
+    </item>
     
     <item>
       <title>Slam Drone Project 1</title>
