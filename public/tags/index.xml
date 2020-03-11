@@ -2,68 +2,95 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on KNLabs</title>
-    <link>https://pedantic-meninsky-a943cd.netlify.com/tags/</link>
+    <link>https://www.knlabs.kr/tags/</link>
     <description>Recent content in Tags on KNLabs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr-ko</language>
     <managingEditor>robert@knlabs.kr (robert)</managingEditor>
     <webMaster>robert@knlabs.kr (robert)</webMaster>
-    <lastBuildDate>Thu, 30 Jan 2020 22:33:42 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 08 Feb 2020 22:23:33 +0900</lastBuildDate>
     
-	<atom:link href="https://pedantic-meninsky-a943cd.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.knlabs.kr/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Drone</title>
+      <link>https://www.knlabs.kr/tags/drone/</link>
+      <pubDate>Sat, 08 Feb 2020 22:23:33 +0900</pubDate>
+      <author>robert@knlabs.kr (robert)</author>
+      <guid>https://www.knlabs.kr/tags/drone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NVIDIA</title>
+      <link>https://www.knlabs.kr/tags/nvidia/</link>
+      <pubDate>Sat, 08 Feb 2020 22:23:33 +0900</pubDate>
+      <author>robert@knlabs.kr (robert)</author>
+      <guid>https://www.knlabs.kr/tags/nvidia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>project</title>
+      <link>https://www.knlabs.kr/tags/project/</link>
+      <pubDate>Sat, 08 Feb 2020 22:23:33 +0900</pubDate>
+      <author>robert@knlabs.kr (robert)</author>
+      <guid>https://www.knlabs.kr/tags/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Command</title>
-      <link>https://pedantic-meninsky-a943cd.netlify.com/tags/command/</link>
+      <link>https://www.knlabs.kr/tags/command/</link>
       <pubDate>Thu, 30 Jan 2020 22:33:42 +0900</pubDate>
       <author>robert@knlabs.kr (robert)</author>
-      <guid>https://pedantic-meninsky-a943cd.netlify.com/tags/command/</guid>
+      <guid>https://www.knlabs.kr/tags/command/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>https://pedantic-meninsky-a943cd.netlify.com/tags/linux/</link>
+      <link>https://www.knlabs.kr/tags/linux/</link>
       <pubDate>Thu, 30 Jan 2020 22:33:42 +0900</pubDate>
       <author>robert@knlabs.kr (robert)</author>
-      <guid>https://pedantic-meninsky-a943cd.netlify.com/tags/linux/</guid>
+      <guid>https://www.knlabs.kr/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>리눅스</title>
-      <link>https://pedantic-meninsky-a943cd.netlify.com/tags/%EB%A6%AC%EB%88%85%EC%8A%A4/</link>
+      <link>https://www.knlabs.kr/tags/%EB%A6%AC%EB%88%85%EC%8A%A4/</link>
       <pubDate>Thu, 30 Jan 2020 22:33:42 +0900</pubDate>
       <author>robert@knlabs.kr (robert)</author>
-      <guid>https://pedantic-meninsky-a943cd.netlify.com/tags/%EB%A6%AC%EB%88%85%EC%8A%A4/</guid>
+      <guid>https://www.knlabs.kr/tags/%EB%A6%AC%EB%88%85%EC%8A%A4/</guid>
       <description></description>
     </item>
     
     <item>
       <title>명령어</title>
-      <link>https://pedantic-meninsky-a943cd.netlify.com/tags/%EB%AA%85%EB%A0%B9%EC%96%B4/</link>
+      <link>https://www.knlabs.kr/tags/%EB%AA%85%EB%A0%B9%EC%96%B4/</link>
       <pubDate>Thu, 30 Jan 2020 22:33:42 +0900</pubDate>
       <author>robert@knlabs.kr (robert)</author>
-      <guid>https://pedantic-meninsky-a943cd.netlify.com/tags/%EB%AA%85%EB%A0%B9%EC%96%B4/</guid>
+      <guid>https://www.knlabs.kr/tags/%EB%AA%85%EB%A0%B9%EC%96%B4/</guid>
       <description></description>
     </item>
     
     <item>
       <title>KNLabs</title>
-      <link>https://pedantic-meninsky-a943cd.netlify.com/tags/knlabs/</link>
+      <link>https://www.knlabs.kr/tags/knlabs/</link>
       <pubDate>Wed, 29 Jan 2020 02:51:14 +0900</pubDate>
       <author>robert@knlabs.kr (robert)</author>
-      <guid>https://pedantic-meninsky-a943cd.netlify.com/tags/knlabs/</guid>
+      <guid>https://www.knlabs.kr/tags/knlabs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>회사</title>
-      <link>https://pedantic-meninsky-a943cd.netlify.com/tags/%ED%9A%8C%EC%82%AC/</link>
+      <link>https://www.knlabs.kr/tags/%ED%9A%8C%EC%82%AC/</link>
       <pubDate>Wed, 29 Jan 2020 02:51:14 +0900</pubDate>
       <author>robert@knlabs.kr (robert)</author>
-      <guid>https://pedantic-meninsky-a943cd.netlify.com/tags/%ED%9A%8C%EC%82%AC/</guid>
+      <guid>https://www.knlabs.kr/tags/%ED%9A%8C%EC%82%AC/</guid>
       <description></description>
     </item>
     

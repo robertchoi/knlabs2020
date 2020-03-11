@@ -3,72 +3,102 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pedantic-meninsky-a943cd.netlify.com/categories/</loc>
+    <loc>https://www.knlabs.kr/categories/</loc>
+    <lastmod>2020-02-08T22:23:33+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.knlabs.kr/tags/drone/</loc>
+    <lastmod>2020-02-08T22:23:33+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.knlabs.kr/</loc>
+    <lastmod>2020-02-08T22:23:33+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.knlabs.kr/tags/nvidia/</loc>
+    <lastmod>2020-02-08T22:23:33+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.knlabs.kr/tags/project/</loc>
+    <lastmod>2020-02-08T22:23:33+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.knlabs.kr/projects/</loc>
+    <lastmod>2020-02-08T22:23:33+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.knlabs.kr/categories/projects/</loc>
+    <lastmod>2020-02-08T22:23:33+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.knlabs.kr/projects/slam-drone/</loc>
+    <lastmod>2020-02-08T22:23:33+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.knlabs.kr/tags/</loc>
+    <lastmod>2020-02-08T22:23:33+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.knlabs.kr/tags/command/</loc>
     <lastmod>2020-01-30T22:33:42+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pedantic-meninsky-a943cd.netlify.com/tags/command/</loc>
+    <loc>https://www.knlabs.kr/tags/linux/</loc>
     <lastmod>2020-01-30T22:33:42+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pedantic-meninsky-a943cd.netlify.com/</loc>
+    <loc>https://www.knlabs.kr/categories/linux/</loc>
     <lastmod>2020-01-30T22:33:42+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pedantic-meninsky-a943cd.netlify.com/tags/linux/</loc>
+    <loc>https://www.knlabs.kr/posts/</loc>
     <lastmod>2020-01-30T22:33:42+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pedantic-meninsky-a943cd.netlify.com/categories/linux/</loc>
+    <loc>https://www.knlabs.kr/tags/%EB%A6%AC%EB%88%85%EC%8A%A4/</loc>
     <lastmod>2020-01-30T22:33:42+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pedantic-meninsky-a943cd.netlify.com/posts/</loc>
+    <loc>https://www.knlabs.kr/posts/screen/</loc>
     <lastmod>2020-01-30T22:33:42+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pedantic-meninsky-a943cd.netlify.com/tags/</loc>
+    <loc>https://www.knlabs.kr/tags/%EB%AA%85%EB%A0%B9%EC%96%B4/</loc>
     <lastmod>2020-01-30T22:33:42+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pedantic-meninsky-a943cd.netlify.com/tags/%EB%A6%AC%EB%88%85%EC%8A%A4/</loc>
-    <lastmod>2020-01-30T22:33:42+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pedantic-meninsky-a943cd.netlify.com/posts/screen/</loc>
-    <lastmod>2020-01-30T22:33:42+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pedantic-meninsky-a943cd.netlify.com/tags/%EB%AA%85%EB%A0%B9%EC%96%B4/</loc>
-    <lastmod>2020-01-30T22:33:42+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pedantic-meninsky-a943cd.netlify.com/tags/knlabs/</loc>
+    <loc>https://www.knlabs.kr/tags/knlabs/</loc>
     <lastmod>2020-01-29T02:51:14+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pedantic-meninsky-a943cd.netlify.com/posts/my-first-post/</loc>
+    <loc>https://www.knlabs.kr/posts/my-first-post/</loc>
     <lastmod>2020-01-29T02:51:14+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pedantic-meninsky-a943cd.netlify.com/tags/%ED%9A%8C%EC%82%AC/</loc>
+    <loc>https://www.knlabs.kr/tags/%ED%9A%8C%EC%82%AC/</loc>
     <lastmod>2020-01-29T02:51:14+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pedantic-meninsky-a943cd.netlify.com/categories/%ED%9A%8C%EC%82%AC/</loc>
+    <loc>https://www.knlabs.kr/categories/%ED%9A%8C%EC%82%AC/</loc>
     <lastmod>2020-01-29T02:51:14+09:00</lastmod>
   </url>
   

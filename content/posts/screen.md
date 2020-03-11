@@ -6,7 +6,8 @@ tags: ["Linux", "Command", "리눅스", "명령어"]
 categories: ["Linux"]
 ---
 
-## Screen이란?
+# Linux에서 screen 명령어란?
+![image](https://user-images.githubusercontent.com/152094/76447227-a8585300-640b-11ea-8de9-a135513f932a.png)
 Screen이란 Linux에서 물리적인 터미널을 여러 개의 가상 터미널로 다중화해주는 도구입니다. 각 가상 터미널은 독립적으로 동작하며 사용자 세션이 분리되어도 동작합니다. 간단히 말하면 이 도구는 백그라운드로 동작하는 다중 터미널을 만들어 줍니다. 이걸 이용해서 백그라운드 작업을 간단히 수행할 수도 있고 회사에서 작업하던 터미널 화면을 집에 가서도 같은 터미널 화면을 보며 작업을 이어 할 수도 있습니다.
 
 ## 설치
@@ -51,16 +52,16 @@ bindkey -k k3 select 2
 
 ### screen 명령어
 Screen에서의 명령은 Ctrl + a 와 다른 키의 조합으로 이루어진다. 먼저 Ctrl + a를 누른 후 조합키를 누르면 된다. 동시에 누르는 것이 아니고 순차적으로 눌러야 한다.
-  * Ctrl+a, c : 새창 띄우기
-  * Ctrl+a, a : 바로 전 창으로
-  * Ctrl+a, n : 다음 창으로
-  * Ctrl+a, p: 이전 창으로
-  * Ctrl+a, 스페이스 : 다음 창으로
-  * Ctrl+a, 백스페이스 : 이전 창으로
-  * Ctrl+a, 0 : 0번째 창으로
-  * Ctrl+a, 1 : 1번째 창으로
-  * Ctrl+a, 9 : 10번째 창으로
-  * Ctrl+a, d : screen 탈출(screen은 계속 실행중이다.)
+- Ctrl+a, c : 새창 띄우기
+- Ctrl+a, a : 바로 전 창으로
+- Ctrl+a, n : 다음 창으로
+- Ctrl+a, p: 이전 창으로
+- Ctrl+a, 스페이스 : 다음 창으로
+- Ctrl+a, 백스페이스 : 이전 창으로
+- Ctrl+a, 0 : 0번째 창으로
+- Ctrl+a, 1 : 1번째 창으로
+- Ctrl+a, 9 : 10번째 창으로
+- Ctrl+a, d : screen 탈출(screen은 계속 실행중이다.)
 
 ## 참조문헌
 [Linux screen 사용법](https://dreamlog.tistory.com/470)

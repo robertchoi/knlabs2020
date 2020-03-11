@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drone on KNLabs</title>
+    <link>https://www.knlabs.kr/tags/drone/</link>
+    <description>Recent content in Drone on KNLabs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>kr-ko</language>
+    <managingEditor>robert@knlabs.kr (robert)</managingEditor>
+    <webMaster>robert@knlabs.kr (robert)</webMaster>
+    <lastBuildDate>Sat, 08 Feb 2020 22:23:33 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.knlabs.kr/tags/drone/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Slam Drone Project 1</title>
+      <link>https://www.knlabs.kr/projects/slam-drone/</link>
+      <pubDate>Sat, 08 Feb 2020 22:23:33 +0900</pubDate>
+      <author>robert@knlabs.kr (robert)</author>
+      <guid>https://www.knlabs.kr/projects/slam-drone/</guid>
+      <description>Write your content.</description>
+    </item>
+    
+  </channel>
+</rss>

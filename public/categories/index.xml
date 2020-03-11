@@ -2,32 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on KNLabs</title>
-    <link>https://pedantic-meninsky-a943cd.netlify.com/categories/</link>
+    <link>https://www.knlabs.kr/categories/</link>
     <description>Recent content in Categories on KNLabs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr-ko</language>
     <managingEditor>robert@knlabs.kr (robert)</managingEditor>
     <webMaster>robert@knlabs.kr (robert)</webMaster>
-    <lastBuildDate>Thu, 30 Jan 2020 22:33:42 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 08 Feb 2020 22:23:33 +0900</lastBuildDate>
     
-	<atom:link href="https://pedantic-meninsky-a943cd.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.knlabs.kr/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>projects</title>
+      <link>https://www.knlabs.kr/categories/projects/</link>
+      <pubDate>Sat, 08 Feb 2020 22:23:33 +0900</pubDate>
+      <author>robert@knlabs.kr (robert)</author>
+      <guid>https://www.knlabs.kr/categories/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Linux</title>
-      <link>https://pedantic-meninsky-a943cd.netlify.com/categories/linux/</link>
+      <link>https://www.knlabs.kr/categories/linux/</link>
       <pubDate>Thu, 30 Jan 2020 22:33:42 +0900</pubDate>
       <author>robert@knlabs.kr (robert)</author>
-      <guid>https://pedantic-meninsky-a943cd.netlify.com/categories/linux/</guid>
+      <guid>https://www.knlabs.kr/categories/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>회사</title>
-      <link>https://pedantic-meninsky-a943cd.netlify.com/categories/%ED%9A%8C%EC%82%AC/</link>
+      <link>https://www.knlabs.kr/categories/%ED%9A%8C%EC%82%AC/</link>
       <pubDate>Wed, 29 Jan 2020 02:51:14 +0900</pubDate>
       <author>robert@knlabs.kr (robert)</author>
-      <guid>https://pedantic-meninsky-a943cd.netlify.com/categories/%ED%9A%8C%EC%82%AC/</guid>
+      <guid>https://www.knlabs.kr/categories/%ED%9A%8C%EC%82%AC/</guid>
       <description></description>
     </item>
     
