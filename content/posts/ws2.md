@@ -1,7 +1,7 @@
 ---
 title: "자율주행과 인공지능 딥러닝 NVIDIA 젯봇 워크샵"
 date: 2020-04-30T01:54:05+09:00
-draft: true
+draft: false
 tags: ["자율주행", "로봇", "ROS", "워크샵"]
 categories: ["워크샵"]
 cover: "https://user-images.githubusercontent.com/152094/80623953-f68de800-8a85-11ea-961a-dffae7c9700d.png"
