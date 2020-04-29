@@ -2,7 +2,7 @@
 title: "자율 주행과 로봇 제어를 위한 OS 워크샵 - ROS 워크샵 입문"
 date: 2020-03-12T03:30:29+09:00
 draft: false
-tags: ["자율주행", "로봇", "ROS", "워큿샵"]
+tags: ["자율주행", "로봇", "ROS", "워크샵"]
 categories: ["워크샵"]
 cover: "https://user-images.githubusercontent.com/152094/76451080-3a635a00-6412-11ea-8237-e2a9c5f723fe.png"
 ---
