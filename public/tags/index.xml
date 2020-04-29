@@ -8,7 +8,7 @@
     <language>kr-ko</language>
     <managingEditor>robert@knlabs.kr (robert)</managingEditor>
     <webMaster>robert@knlabs.kr (robert)</webMaster>
-    <lastBuildDate>Thu, 12 Mar 2020 03:30:29 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2020 02:11:00 +0900</lastBuildDate>
     
 	<atom:link href="https://www.knlabs.kr/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -16,7 +16,7 @@
     <item>
       <title>ROS</title>
       <link>https://www.knlabs.kr/tags/ros/</link>
-      <pubDate>Thu, 12 Mar 2020 03:30:29 +0900</pubDate>
+      <pubDate>Thu, 30 Apr 2020 02:11:00 +0900</pubDate>
       <author>robert@knlabs.kr (robert)</author>
       <guid>https://www.knlabs.kr/tags/ros/</guid>
       <description></description>
@@ -25,25 +25,25 @@
     <item>
       <title>로봇</title>
       <link>https://www.knlabs.kr/tags/%EB%A1%9C%EB%B4%87/</link>
-      <pubDate>Thu, 12 Mar 2020 03:30:29 +0900</pubDate>
+      <pubDate>Thu, 30 Apr 2020 02:11:00 +0900</pubDate>
       <author>robert@knlabs.kr (robert)</author>
       <guid>https://www.knlabs.kr/tags/%EB%A1%9C%EB%B4%87/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>워큿샵</title>
-      <link>https://www.knlabs.kr/tags/%EC%9B%8C%ED%81%BF%EC%83%B5/</link>
-      <pubDate>Thu, 12 Mar 2020 03:30:29 +0900</pubDate>
+      <title>워크샵</title>
+      <link>https://www.knlabs.kr/tags/%EC%9B%8C%ED%81%AC%EC%83%B5/</link>
+      <pubDate>Thu, 30 Apr 2020 02:11:00 +0900</pubDate>
       <author>robert@knlabs.kr (robert)</author>
-      <guid>https://www.knlabs.kr/tags/%EC%9B%8C%ED%81%BF%EC%83%B5/</guid>
+      <guid>https://www.knlabs.kr/tags/%EC%9B%8C%ED%81%AC%EC%83%B5/</guid>
       <description></description>
     </item>
     
     <item>
       <title>자율주행</title>
       <link>https://www.knlabs.kr/tags/%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89/</link>
-      <pubDate>Thu, 12 Mar 2020 03:30:29 +0900</pubDate>
+      <pubDate>Thu, 30 Apr 2020 02:11:00 +0900</pubDate>
       <author>robert@knlabs.kr (robert)</author>
       <guid>https://www.knlabs.kr/tags/%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89/</guid>
       <description></description>
