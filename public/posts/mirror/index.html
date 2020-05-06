@@ -3,30 +3,30 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>자율 주행과 로봇 제어를 위한 OS 워크샵 중급1 - ROS 워크샵 입문 터틀봇 활용  | KNLabs</title>
-  <meta name="description" content="KNLabs 오픈연구소 홈페이지입니다. '자율 주행과 로봇 제어를 위한 OS 워크샵 중급1 - ROS 워크샵 입문 터틀봇 활용'을 한 번 살펴보세요.">
-  <meta property="og:title" content="자율 주행과 로봇 제어를 위한 OS 워크샵 중급1 - ROS 워크샵 입문 터틀봇 활용">
+  <title>자율주행과 음성인식 워크샵  | KNLabs</title>
+  <meta name="description" content="KNLabs 오픈연구소 홈페이지입니다. '자율주행과 음성인식 워크샵'을 한 번 살펴보세요.">
+  <meta property="og:title" content="자율주행과 음성인식 워크샵">
   
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2020-04-30">
+  <meta property="article:published_time" content="2020-05-06">
   
-  <meta property="og:description" content="KNLabs 오픈연구소 홈페이지입니다. '자율 주행과 로봇 제어를 위한 OS 워크샵 중급1 - ROS 워크샵 입문 터틀봇 활용'을 한 번 살펴보세요.">
-  <meta property="og:url" content="https://www.knlabs.kr/posts/ws3/">
+  <meta property="og:description" content="KNLabs 오픈연구소 홈페이지입니다. '자율주행과 음성인식 워크샵'을 한 번 살펴보세요.">
+  <meta property="og:url" content="https://www.knlabs.kr/posts/mirror/">
   <meta property="og:site_name" content="KNLabs">
   
-  <meta property="og:image" content="https://user-images.githubusercontent.com/152094/80625358-0d353e80-8a88-11ea-8d45-73a76f73c0bc.png">
+  <meta property="og:image" content="https://user-images.githubusercontent.com/152094/81182548-e24b6d00-8fe8-11ea-8afa-803b9486f923.png">
   
   
   <meta property="og:tags" content="자율주행">
   
-  <meta property="og:tags" content="로봇">
+  <meta property="og:tags" content="음성인식">
   
-  <meta property="og:tags" content="ROS">
+  <meta property="og:tags" content="스마트미러">
   
   <meta property="og:tags" content="워크샵">
   
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="canonical" href="https://www.knlabs.kr/posts/ws3/">
+  <link rel="canonical" href="https://www.knlabs.kr/posts/mirror/">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/agate.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap">
@@ -70,11 +70,11 @@
 
 <div class="post">
   <div class="post-title">
-    <a href="https://www.knlabs.kr/posts/ws3/">
+    <a href="https://www.knlabs.kr/posts/mirror/">
       <img src="/images/post-title-icon.png" />
       <div class="post-meta">
-        <time>2020년 04월 30일 02시 11분</time>
-        <h1>자율 주행과 로봇 제어를 위한 OS 워크샵 중급1 - ROS 워크샵 입문 터틀봇 활용</h1>
+        <time>2020년 05월 06일 21시 32분</time>
+        <h1>자율주행과 음성인식 워크샵</h1>
       </div>
     </a>
   </div>
@@ -83,42 +83,74 @@
     <nav id="TableOfContents"></nav>
   </div>
   <section class="post-content">
-    <p><img src="https://user-images.githubusercontent.com/152094/80625358-0d353e80-8a88-11ea-8d45-73a76f73c0bc.png" alt="ROS워크샵중급1포스트"></p>
+    <p><img src="https://user-images.githubusercontent.com/152094/81182548-e24b6d00-8fe8-11ea-8afa-803b9486f923.png" alt="스마트미러워크샵포스트"></p>
 <p>[커뮤니티 소개]
 오로카 판교지역모임은 자율주행과 로봇제어 관련 회사들이 많이 있는 판교지역에서 로봇운영체제인 ROS를 스터디하고 있습니다. ROS뿐 아니라, 아두이노, 라즈베리파이, 3D프린터를 기반으로한 메이킹 문화를 만들고자 합니다. 로봇과 자율주행관련 회사에 소속된 다양한 경력의 엔지니어들이 주축이 되어 활동하고 있습니다.</p>
-<ul>
-<li>오로카카페
-<a href="https://cafe.naver.com/openrt">https://cafe.naver.com/openrt</a></li>
-</ul>
+<p>[오로카카페]
+<a href="https://cafe.naver.com/openrt">https://cafe.naver.com/openrt</a></p>
 <p>[슬랙 채널]
 <a href="http://bit.ly/">http://bit.ly/</a>오로카판교슬랙링크</p>
 <p>[단톡방]
 <a href="http://bit.ly/">http://bit.ly/</a>로봇모임단톡방</p>
-<p>[장소 및 시간]
-경기도 성남시 분당구 판교로289번길 20, 1동 7층
-토요일 오전 9시 30분 부터 입장가능하고 발표는 10시부터 5시까지 진행합니다.</p>
-<p>종합반 : 99만원, 터틀봇(구매비용 88만원 포함, 자율주행용 카메라킷 포함)</p>
 <ul>
-<li>문의:010-2742-0631</li>
+<li>스마트미러 만들기 영상
+<a href="https://www.youtube.com/watch?v=O3l46ogmgLY">https://www.youtube.com/watch?v=O3l46ogmgLY</a>
+<a href="https://www.youtube.com/watch?v=9NPY_LfSDLg">https://www.youtube.com/watch?v=9NPY_LfSDLg</a></li>
+</ul>
+<p>[장소 및 시간]
+경기도 성남시 분당구 판교로289번길 20, 1동 2층 세미나5실
+당일 토요일 오전 9시 30분 부터 입장가능하고 발표는 10시부터 5시까지 진행합니다.</p>
+<p>종합반 : 55만원 (구매비용 40만원 포함)</p>
+<ul>
+<li>
+<p>모형자동차 키트</p>
+</li>
+<li>
+<p>라즈베리파이 3B+ 킷트</p>
+</li>
+<li>
+<p>모터/배터리 매니지먼트 키트</p>
+</li>
+<li>
+<p>카메라</p>
+</li>
+<li>
+<p>모니터 10.1인치</p>
+</li>
+<li>
+<p>센서키트(37종)</p>
+</li>
+<li>
+<p>마이크</p>
+</li>
+<li>
+<p>문의:010-2742-0631</p>
+</li>
 </ul>
 <p>[발표]</p>
 <ol>
+<li>자동차 조립</li>
+</ol>
+<ul>
+<li>모형자동차을 조립하면서, 자동차의 구조를 익힙니다.</li>
+</ul>
+<ol start="2">
 <li>베이직 오퍼레이션</li>
 </ol>
 <ul>
-<li>기본적인 동작과 원격으로 터틀봇을 조종합니다.</li>
-</ul>
-<ol start="2">
-<li>SLAM과 네비게이션</li>
-</ol>
-<ul>
-<li>터틀봇을 활용한 SLAM과 네비게이션 실습</li>
+<li>기본적인 동작과 원격으로 모형 자동차을 조종합니다.</li>
 </ul>
 <ol start="3">
-<li>자율주행 실습</li>
+<li>영상인식과 딥러닝</li>
 </ol>
 <ul>
-<li>신호등 인식하기, 라인 트래킹, 파킹, Node Optimization, Level Crossing, 터널 통과하기 실습</li>
+<li>영상인식을 통해서 물체를 학습하고, 충돌회피하는 방법을 익힙니다.</li>
+</ul>
+<ol start="4">
+<li>음성인식</li>
+</ol>
+<ul>
+<li>구글어시스턴스와 매직미러2 오픈소스를 활용해서 스마트미러를 구현하고, 음성으로 자동차를 조종하고, 음성으로 매직미러를 활용하는 다양한 방법을 익힙니다.</li>
 </ul>
 <p>[참가등록 안내]</p>
 <ul>
@@ -129,31 +161,37 @@
 </ul>
 <p>[준비사항]</p>
 <ul>
-<li>원활한 진행을 위해서 우분투 18.04버전을 듀얼부트로 설치해 오시기 바랍니다. 버추얼박스나, VMware에서는 가제보가 동작하지 않습니다.</li>
+<li>개인 노트북을 준비해 주세요.</li>
+<li>파이썬을 선행 학습 해 오시면 많은 도움이 됩니다.</li>
+<li>딥러닝 알고리즘을 선행 학습 해 오시면 많은 도음이 됩니다.</li>
 </ul>
 <p>[주의사항]</p>
 <ul>
 <li>노쇼 방지를 위해 당일 불참하신 분께는 참가비를 반환해드리지 않습니다.</li>
 <li>환불 신청 시 하루 전 오후 7시까지 댓글로 환불 취소를 한 경우에만 환불 가능합니다.</li>
-<li>터틀봇 구매의 경우에 구매 비용은 환불되지 않습니다.</li>
+<li>재료의 구매 비용은 환불되지 않습니다.</li>
 </ul>
 <p>[신청]
-<a href="https://bit.ly/ROS">https://bit.ly/ROS</a>중급1</p>
+<a href="https://bit.ly/">https://bit.ly/</a>스마트미러05월</p>
+<ul>
+<li>다른 교육 살펴보기
+<a href="https://www.meetup.com/Design-Make-Share-in-Seongnam-KR/events/">https://www.meetup.com/Design-Make-Share-in-Seongnam-KR/events/</a></li>
+</ul>
 
   </section>
   <div class="share">    
     <a
-      href="//www.facebook.com/sharer.php?src=bm&u=https%3a%2f%2fwww.knlabs.kr%2fposts%2fws3%2f&t=%ec%9e%90%ec%9c%a8%20%ec%a3%bc%ed%96%89%ea%b3%bc%20%eb%a1%9c%eb%b4%87%20%ec%a0%9c%ec%96%b4%eb%a5%bc%20%ec%9c%84%ed%95%9c%20OS%20%ec%9b%8c%ed%81%ac%ec%83%b5%20%ec%a4%91%ea%b8%891%20-%20ROS%20%ec%9b%8c%ed%81%ac%ec%83%b5%20%ec%9e%85%eb%ac%b8%20%ed%84%b0%ed%8b%80%eb%b4%87%20%ed%99%9c%ec%9a%a9"
+      href="//www.facebook.com/sharer.php?src=bm&u=https%3a%2f%2fwww.knlabs.kr%2fposts%2fmirror%2f&t=%ec%9e%90%ec%9c%a8%ec%a3%bc%ed%96%89%ea%b3%bc%20%ec%9d%8c%ec%84%b1%ec%9d%b8%ec%8b%9d%20%ec%9b%8c%ed%81%ac%ec%83%b5"
       onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"
       ><i class="fa fa-facebook"></i
     ></a>
     <a
-      href="//twitter.com/intent/tweet?url=https%3a%2f%2fwww.knlabs.kr%2fposts%2fws3%2f&text=%ec%9e%90%ec%9c%a8%20%ec%a3%bc%ed%96%89%ea%b3%bc%20%eb%a1%9c%eb%b4%87%20%ec%a0%9c%ec%96%b4%eb%a5%bc%20%ec%9c%84%ed%95%9c%20OS%20%ec%9b%8c%ed%81%ac%ec%83%b5%20%ec%a4%91%ea%b8%891%20-%20ROS%20%ec%9b%8c%ed%81%ac%ec%83%b5%20%ec%9e%85%eb%ac%b8%20%ed%84%b0%ed%8b%80%eb%b4%87%20%ed%99%9c%ec%9a%a9&tw_p=tweetbutton"
+      href="//twitter.com/intent/tweet?url=https%3a%2f%2fwww.knlabs.kr%2fposts%2fmirror%2f&text=%ec%9e%90%ec%9c%a8%ec%a3%bc%ed%96%89%ea%b3%bc%20%ec%9d%8c%ec%84%b1%ec%9d%b8%ec%8b%9d%20%ec%9b%8c%ed%81%ac%ec%83%b5&tw_p=tweetbutton"
       onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"
       ><i class="fa fa-twitter"></i
     ></a>
     <a
-      href="//getpocket.com/edit?url=https%3a%2f%2fwww.knlabs.kr%2fposts%2fws3%2f&title=%ec%9e%90%ec%9c%a8%20%ec%a3%bc%ed%96%89%ea%b3%bc%20%eb%a1%9c%eb%b4%87%20%ec%a0%9c%ec%96%b4%eb%a5%bc%20%ec%9c%84%ed%95%9c%20OS%20%ec%9b%8c%ed%81%ac%ec%83%b5%20%ec%a4%91%ea%b8%891%20-%20ROS%20%ec%9b%8c%ed%81%ac%ec%83%b5%20%ec%9e%85%eb%ac%b8%20%ed%84%b0%ed%8b%80%eb%b4%87%20%ed%99%9c%ec%9a%a9"
+      href="//getpocket.com/edit?url=https%3a%2f%2fwww.knlabs.kr%2fposts%2fmirror%2f&title=%ec%9e%90%ec%9c%a8%ec%a3%bc%ed%96%89%ea%b3%bc%20%ec%9d%8c%ec%84%b1%ec%9d%b8%ec%8b%9d%20%ec%9b%8c%ed%81%ac%ec%83%b5"
       onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"
       ><i class="fa fa-get-pocket"></i
     ></a>
@@ -165,7 +203,7 @@
       <a href="mailto:robert@knlabs.kr">robert</a>
       
       님이
-      <span class="highlight">2020년 04월 30일 02시 11분</span> 
+      <span class="highlight">2020년 05월 06일 21시 32분</span> 
       에 작성한 글입니다.
     </div>
     <div class="desc">
@@ -184,9 +222,9 @@
         
         <a href="https://www.knlabs.kr/tags/%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89">#자율주행</a>
         
-        <a href="https://www.knlabs.kr/tags/%EB%A1%9C%EB%B4%87">#로봇</a>
+        <a href="https://www.knlabs.kr/tags/%EC%9D%8C%EC%84%B1%EC%9D%B8%EC%8B%9D">#음성인식</a>
         
-        <a href="https://www.knlabs.kr/tags/ros">#ROS</a>
+        <a href="https://www.knlabs.kr/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8%EB%AF%B8%EB%9F%AC">#스마트미러</a>
         
         <a href="https://www.knlabs.kr/tags/%EC%9B%8C%ED%81%AC%EC%83%B5">#워크샵</a>
         
@@ -200,17 +238,11 @@
     <ul>
       
       <li>
-        <a href="https://www.knlabs.kr/posts/ws2/" rel="prev">
-          <span>자율주행과 인공지능 딥러닝 NVIDIA 젯봇 워크샵</span>
+        <a href="https://www.knlabs.kr/posts/ws3/" rel="prev">
+          <span>자율 주행과 로봇 제어를 위한 OS 워크샵 중급1 - ROS 워크샵 입문 터틀봇 활용</span>
         </a>
       </li>
       
-      
-      <li>
-        <a href="https://www.knlabs.kr/posts/mirror/" rel="next">
-          <span>자율주행과 음성인식 워크샵</span>
-        </a>
-      </li>
       
     </ul>
   </div>

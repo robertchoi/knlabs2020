@@ -8,10 +8,23 @@
     <language>kr-ko</language>
     <managingEditor>robert@knlabs.kr (robert)</managingEditor>
     <webMaster>robert@knlabs.kr (robert)</webMaster>
-    <lastBuildDate>Thu, 30 Apr 2020 02:11:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2020 21:32:14 +0900</lastBuildDate>
     
 	<atom:link href="https://www.knlabs.kr/tags/%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>자율주행과 음성인식 워크샵</title>
+      <link>https://www.knlabs.kr/posts/mirror/</link>
+      <pubDate>Wed, 06 May 2020 21:32:14 +0900</pubDate>
+      <author>robert@knlabs.kr (robert)</author>
+      <guid>https://www.knlabs.kr/posts/mirror/</guid>
+      <description>[커뮤니티 소개] 오로카 판교지역모임은 자율주행과 로봇제어 관련 회사들이 많이 있는 판교지역에서 로봇운영체제인 ROS를 스터디하고 있습니다. ROS뿐 아니라, 아두이노, 라즈베리파이, 3D프린터를 기반으로한 메이킹 문화를 만들고자 합니다. 로봇과 자율주행관련 회사에 소속된 다양한 경력의 엔지니어들이 주축이 되어 활동하고 있습니다.
+[오로카카페] https://cafe.naver.com/openrt
+[슬랙 채널] http://bit.ly/오로카판교슬랙링크
+[단톡방] http://bit.ly/로봇모임단톡방
+ 스마트미러 만들기 영상 https://www.youtube.com/watch?v=O3l46ogmgLY https://www.youtube.com/watch?v=9NPY_LfSDLg  [장소 및 시간] 경기도 성남시 분당구 판교로289번길 20, 1동 2층 세미나5실 당일 토요일 오전 9시 30분 부터 입장가능하고 발표는 10시부터 5시까지 진행합니다.</description>
+    </item>
     
     <item>
       <title>자율 주행과 로봇 제어를 위한 OS 워크샵 중급1 - ROS 워크샵 입문 터틀봇 활용</title>
