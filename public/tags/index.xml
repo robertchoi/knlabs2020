@@ -8,10 +8,46 @@
     <language>kr-ko</language>
     <managingEditor>robert@knlabs.kr (robert)</managingEditor>
     <webMaster>robert@knlabs.kr (robert)</webMaster>
-    <lastBuildDate>Wed, 06 May 2020 21:32:14 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2020 22:36:00 +0900</lastBuildDate>
     
 	<atom:link href="https://www.knlabs.kr/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>워크샵</title>
+      <link>https://www.knlabs.kr/tags/%EC%9B%8C%ED%81%AC%EC%83%B5/</link>
+      <pubDate>Wed, 06 May 2020 22:36:00 +0900</pubDate>
+      <author>robert@knlabs.kr (robert)</author>
+      <guid>https://www.knlabs.kr/tags/%EC%9B%8C%ED%81%AC%EC%83%B5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>인공지능</title>
+      <link>https://www.knlabs.kr/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</link>
+      <pubDate>Wed, 06 May 2020 22:36:00 +0900</pubDate>
+      <author>robert@knlabs.kr (robert)</author>
+      <guid>https://www.knlabs.kr/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>자율주행</title>
+      <link>https://www.knlabs.kr/tags/%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89/</link>
+      <pubDate>Wed, 06 May 2020 22:36:00 +0900</pubDate>
+      <author>robert@knlabs.kr (robert)</author>
+      <guid>https://www.knlabs.kr/tags/%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>젯레이서</title>
+      <link>https://www.knlabs.kr/tags/%EC%A0%AF%EB%A0%88%EC%9D%B4%EC%84%9C/</link>
+      <pubDate>Wed, 06 May 2020 22:36:00 +0900</pubDate>
+      <author>robert@knlabs.kr (robert)</author>
+      <guid>https://www.knlabs.kr/tags/%EC%A0%AF%EB%A0%88%EC%9D%B4%EC%84%9C/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>스마트미러</title>
@@ -23,29 +59,11 @@
     </item>
     
     <item>
-      <title>워크샵</title>
-      <link>https://www.knlabs.kr/tags/%EC%9B%8C%ED%81%AC%EC%83%B5/</link>
-      <pubDate>Wed, 06 May 2020 21:32:14 +0900</pubDate>
-      <author>robert@knlabs.kr (robert)</author>
-      <guid>https://www.knlabs.kr/tags/%EC%9B%8C%ED%81%AC%EC%83%B5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>음성인식</title>
       <link>https://www.knlabs.kr/tags/%EC%9D%8C%EC%84%B1%EC%9D%B8%EC%8B%9D/</link>
       <pubDate>Wed, 06 May 2020 21:32:14 +0900</pubDate>
       <author>robert@knlabs.kr (robert)</author>
       <guid>https://www.knlabs.kr/tags/%EC%9D%8C%EC%84%B1%EC%9D%B8%EC%8B%9D/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>자율주행</title>
-      <link>https://www.knlabs.kr/tags/%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89/</link>
-      <pubDate>Wed, 06 May 2020 21:32:14 +0900</pubDate>
-      <author>robert@knlabs.kr (robert)</author>
-      <guid>https://www.knlabs.kr/tags/%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89/</guid>
       <description></description>
     </item>
     
